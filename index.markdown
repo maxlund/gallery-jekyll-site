@@ -7,4 +7,4 @@ layout: home
 
 # Welcome to My Jekyll Site
 
-Check out our [Image Gallery](/gallery) to view some amazing photos!
+Check out our [Image Gallery](gallery) to view some amazing photos!
