@@ -51,8 +51,8 @@ title: Image Gallery
                         <div class="row">
                             {% for image in album.images %}
                             <div class="col-md-4">
-                            <a data-src="{{ image.largeImageUrl }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
-                                <img  src="{{ image.imageUrl }}" class="img-fluid img-thumbnail"/>
+                            <a href="{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                <img  src="{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
                             </a>
                             </div>
                             {% endfor %}
