@@ -51,8 +51,8 @@ title: Image Gallery
                         <div class="row">
                             {% for image in album.images %}
                             <div class="col-md-4">
-                            <a href="{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
-                                <img  src="{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
+                            <a href="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
                             </a>
                             </div>
                             {% endfor %}
