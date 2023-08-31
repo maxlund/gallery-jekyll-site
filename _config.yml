@@ -53,4 +53,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - links.sh
+  - gen_images.sh
+  - gen_videos.sh

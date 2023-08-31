@@ -1,10 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
-# Welcome to My Jekyll Site
+<h1>Welcome to My Jekyll Site</h1>
 
 Check out our [Image Gallery]({{ site.baseurl }}/gallery) to view some amazing photos!
+
+Check out our [Video Gallery]({{ site.baseurl }}/videos) to view some amazing photos!
