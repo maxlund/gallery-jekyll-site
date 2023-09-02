@@ -24,13 +24,24 @@ title: Image Gallery
             {% endif %}
                     {% if album.images %}
                         <h2> {{ album.name }} </h2>
-                        <div class="row">
-                            {% for image in album.images %}
-                            <div class="col-md-4">
-                            <a href="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
-                                <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
-                            </a>
+                            {% if album.references %}
+                            <div class="row">
+                                {% for image in album.references %}
+                                <div class="col-md-4">
+                                <a href="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                    <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
+                                </a>
+                                </div>
+                            {% endfor %}
                             </div>
+                            {% endif %}
+                            <div class="row">
+                            {% for image in album.images %}
+                                <div class="col-md-4">
+                                <a href="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                    <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
+                                </a>
+                                </div>
                             {% endfor %}
                         </div>
                     {% endif %}
