@@ -22,6 +22,7 @@ title: Image Gallery
             {% else %}
                 <div class="tab-pane fade" id="nav-{{album.name}}" role="tabpanel" aria-labelledby="nav-{{album.name}}-tab">
             {% endif %}
+               <hr>
                     {% if album.images %}
                         <h2> {{ album.name }} </h2>
                             {% if album.references %}
@@ -29,17 +30,28 @@ title: Image Gallery
                                 {% for image in album.references %}
                                 <div class="col-md-4">
                                 <a href="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
-                                    <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
+                                    <div class="card">
+                                    <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
+                                      <div class="card-body">
+                                        <p class="card-text">{{ image.name }} </p>
+                                    </div>
+                                    </div>
                                 </a>
                                 </div>
                             {% endfor %}
                             </div>
                             {% endif %}
+                            <hr>
                             <div class="row">
                             {% for image in album.images %}
                                 <div class="col-md-4">
                                 <a href="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
-                                    <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail"/>
+                                      <div class="card">
+                                    <img  src="https://media.githubusercontent.com/media/maxlund/sd-showcase/main/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
+                                                       <div class="card-body">
+                                        <p class="card-text">{{ image.name }} </p>
+                                    </div>
+                                  </div>
                                 </a>
                                 </div>
                             {% endfor %}
