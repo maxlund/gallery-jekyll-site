@@ -69,6 +69,9 @@ albums:
       - name: "motiongif-lucas.gif"
         imagePath: "images/lucas/motiongif-lucas.gif"
   - name: max
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/max/train-imgs.jpg"
     images:
       - name: "collage.jpg"
         imagePath: "images/max/collage.jpg"
@@ -85,9 +88,6 @@ albums:
       - name: "photorealism-max.jpg"
         imagePath: "images/max/photorealism-max.jpg"
   - name: misc
-    references:
-      - name: "train-imgs.jpg"
-        imagePath: "images/max/train-imgs.jpg"
     images:
       - name: "boh.jpg"
         imagePath: "images/misc/boh.jpg"
