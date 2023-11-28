@@ -1,5 +1,10 @@
 albums:
   - name: family
+    references:
+      - name: "real-img1.jpg"
+        imagePath: "images/family/real-img1.jpg"
+      - name: "real-img2.jpg"
+        imagePath: "images/family/real-img2.jpg"  
     images:
       - name: "aunt-cousins-goat.jpg"
         imagePath: "images/family/aunt-cousins-goat.jpg"
@@ -9,11 +14,31 @@ albums:
         imagePath: "images/family/family-astronauts.png"
       - name: "family-surfer.png"
         imagePath: "images/family/family-surfer.png"
-      - name: "real-img1.jpg"
-        imagePath: "images/family/real-img1.jpg"
-      - name: "real-img2.jpg"
-        imagePath: "images/family/real-img2.jpg"
+  - name: tiene
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/tiene/train-imgs.jpg"
+    images:
+      - name: "1693247395511.jpg"
+        imagePath: "images/tiene/1693247395511.jpg"
+      - name: "1693247479591.jpg"
+        imagePath: "images/tiene/1693247479591.jpg"
+      - name: "1693247620220.jpg"
+        imagePath: "images/tiene/1693247620220.jpg"
+      - name: "anime-tiene.jpg"
+        imagePath: "images/tiene/anime-tiene.jpg"
+      - name: "motiongif-tiene.gif"
+        imagePath: "images/tiene/motiongif-tiene.gif"
+      - name: "tiene-pixar.jpg"
+        imagePath: "images/tiene/tiene-pixar.jpg"
+      - name: "tiene-shorthair.jpg"
+        imagePath: "images/tiene/tiene-shorthair.jpg"
+      - name: "tiene-statue-collage.png"
+        imagePath: "images/tiene/tiene-statue-collage.png"
   - name: johanna
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/johanna/train-imgs.jpg"
     images:
       - name: "1693247220918.jpg"
         imagePath: "images/johanna/1693247220918.jpg"
@@ -31,9 +56,10 @@ albums:
         imagePath: "images/johanna/photoshops-johanna-casablanca-bogart.png"
       - name: "photoshops-johanna-och-hitler-sitting-in-a-tree.png"
         imagePath: "images/johanna/photoshops-johanna-och-hitler-sitting-in-a-tree.png"
-      - name: "train-imgs.jpg"
-        imagePath: "images/johanna/train-imgs.jpg"
   - name: karolina
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/karolina/train-imgs.jpg"
     images:
       - name: "karolina-collage1.jpg"
         imagePath: "images/karolina/karolina-collage1.jpg"
@@ -43,9 +69,10 @@ albums:
         imagePath: "images/karolina/karolina-shorthair.jpg"
       - name: "motiongif-karolina.gif"
         imagePath: "images/karolina/motiongif-karolina.gif"
-      - name: "train-imgs.jpg"
-        imagePath: "images/karolina/train-imgs.jpg"
   - name: lucas
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/lucas/train-imgs.jpg"
     images:
       - name: "05784-2651696012-Portrait illustration of LMKrukasLund as a pretty elven man, long hair, tan skin, fantasy, light silver armor, super detailed, v.png"
         imagePath: "images/lucas/05784-2651696012-Portrait illustration of LMKrukasLund as a pretty elven man, long hair, tan skin, fantasy, light silver armor, super detailed, v.png"
@@ -59,9 +86,10 @@ albums:
         imagePath: "images/lucas/lucas-zeus.jpg"
       - name: "motiongif-lucas.gif"
         imagePath: "images/lucas/motiongif-lucas.gif"
-      - name: "train-imgs.jpg"
-        imagePath: "images/lucas/train-imgs.jpg"
   - name: max
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/max/train-imgs.jpg"
     images:
       - name: "collage.jpg"
         imagePath: "images/max/collage.jpg"
@@ -77,8 +105,6 @@ albums:
         imagePath: "images/max/motiongif-max.gif"
       - name: "photorealism-max.png"
         imagePath: "images/max/photorealism-max.png"
-      - name: "train-imgs.jpg"
-        imagePath: "images/max/train-imgs.jpg"
   - name: misc
     images:
       - name: "boh.jpg"
@@ -100,6 +126,9 @@ albums:
       - name: "updated-all.jpg"
         imagePath: "images/misc/updated-all.jpg"
   - name: niklas
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/niklas/train-imgs.jpg"
     images:
       - name: "collage.jpg"
         imagePath: "images/niklas/collage.jpg"
@@ -109,25 +138,3 @@ albums:
         imagePath: "images/niklas/niklas-collage1.jpg"
       - name: "niklas-superman.png"
         imagePath: "images/niklas/niklas-superman.png"
-      - name: "train-imgs.jpg"
-        imagePath: "images/niklas/train-imgs.jpg"
-  - name: tiene
-    images:
-      - name: "1693247395511.jpg"
-        imagePath: "images/tiene/1693247395511.jpg"
-      - name: "1693247479591.jpg"
-        imagePath: "images/tiene/1693247479591.jpg"
-      - name: "1693247620220.jpg"
-        imagePath: "images/tiene/1693247620220.jpg"
-      - name: "anime-tiene.jpg"
-        imagePath: "images/tiene/anime-tiene.jpg"
-      - name: "motiongif-tiene.gif"
-        imagePath: "images/tiene/motiongif-tiene.gif"
-      - name: "tiene-pixar.jpg"
-        imagePath: "images/tiene/tiene-pixar.jpg"
-      - name: "tiene-shorthair.jpg"
-        imagePath: "images/tiene/tiene-shorthair.jpg"
-      - name: "tiene-statue-collage.png"
-        imagePath: "images/tiene/tiene-statue-collage.png"
-      - name: "train-imgs.jpg"
-        imagePath: "images/tiene/train-imgs.jpg"
