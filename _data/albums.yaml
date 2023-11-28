@@ -1,5 +1,5 @@
 albums:
-  - name: family
+  - name: Family
     references:
       - name: "real-img1.jpg"
         imagePath: "images/family/real-img1.jpg"
@@ -14,7 +14,7 @@ albums:
         imagePath: "images/family/family-astronauts.png"
       - name: "family-surfer.png"
         imagePath: "images/family/family-surfer.png"
-  - name: tiene
+  - name: Tiene
     references:
       - name: "train-imgs.jpg"
         imagePath: "images/tiene/train-imgs.jpg"
@@ -35,7 +35,43 @@ albums:
         imagePath: "images/tiene/tiene-shorthair.jpg"
       - name: "tiene-statue-collage.png"
         imagePath: "images/tiene/tiene-statue-collage.png"
-  - name: johanna
+  - name: Max
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/max/train-imgs.jpg"
+    images:
+      - name: "collage.jpg"
+        imagePath: "images/max/collage.jpg"
+      - name: "max-collage-dwarf-elf.png"
+        imagePath: "images/max/max-collage-dwarf-elf.png"
+      - name: "max-jagger.jpg"
+        imagePath: "images/max/max-jagger.jpg"
+      - name: "max-roarrr-dracarys.jpeg"
+        imagePath: "images/max/max-roarrr-dracarys.jpeg"
+      - name: "max-statues-collage.png"
+        imagePath: "images/max/max-statues-collage.png"
+      - name: "motiongif-max.gif"
+        imagePath: "images/max/motiongif-max.gif"
+      - name: "photorealism-max.png"
+        imagePath: "images/max/photorealism-max.png"
+  - name: Lucas
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/lucas/train-imgs.jpg"
+    images:
+      - name: "05784-2651696012-Portrait illustration of LMKrukasLund as a pretty elven man, long hair, tan skin, fantasy, light silver armor, super detailed, v.png"
+        imagePath: "images/lucas/05784-2651696012-Portrait illustration of LMKrukasLund as a pretty elven man, long hair, tan skin, fantasy, light silver armor, super detailed, v.png"
+      - name: "lucas-elf.jpg"
+        imagePath: "images/lucas/lucas-elf.jpg"
+      - name: "lucas-statues.jpg"
+        imagePath: "images/lucas/lucas-statues.jpg"
+      - name: "lucas-super-collage.jpg"
+        imagePath: "images/lucas/lucas-super-collage.jpg"
+      - name: "lucas-zeus.jpg"
+        imagePath: "images/lucas/lucas-zeus.jpg"
+      - name: "motiongif-lucas.gif"
+        imagePath: "images/lucas/motiongif-lucas.gif"
+  - name: Johanna
     references:
       - name: "train-imgs.jpg"
         imagePath: "images/johanna/train-imgs.jpg"
@@ -56,7 +92,7 @@ albums:
         imagePath: "images/johanna/photoshops-johanna-casablanca-bogart.png"
       - name: "photoshops-johanna-och-hitler-sitting-in-a-tree.png"
         imagePath: "images/johanna/photoshops-johanna-och-hitler-sitting-in-a-tree.png"
-  - name: karolina
+  - name: Karolina
     references:
       - name: "train-imgs.jpg"
         imagePath: "images/karolina/train-imgs.jpg"
@@ -69,43 +105,20 @@ albums:
         imagePath: "images/karolina/karolina-shorthair.jpg"
       - name: "motiongif-karolina.gif"
         imagePath: "images/karolina/motiongif-karolina.gif"
-  - name: lucas
+  - name: Niklas
     references:
       - name: "train-imgs.jpg"
-        imagePath: "images/lucas/train-imgs.jpg"
-    images:
-      - name: "05784-2651696012-Portrait illustration of LMKrukasLund as a pretty elven man, long hair, tan skin, fantasy, light silver armor, super detailed, v.png"
-        imagePath: "images/lucas/05784-2651696012-Portrait illustration of LMKrukasLund as a pretty elven man, long hair, tan skin, fantasy, light silver armor, super detailed, v.png"
-      - name: "lucas-elf.jpg"
-        imagePath: "images/lucas/lucas-elf.jpg"
-      - name: "lucas-statues.jpg"
-        imagePath: "images/lucas/lucas-statues.jpg"
-      - name: "lucas-super-collage.jpg"
-        imagePath: "images/lucas/lucas-super-collage.jpg"
-      - name: "lucas-zeus.jpg"
-        imagePath: "images/lucas/lucas-zeus.jpg"
-      - name: "motiongif-lucas.gif"
-        imagePath: "images/lucas/motiongif-lucas.gif"
-  - name: max
-    references:
-      - name: "train-imgs.jpg"
-        imagePath: "images/max/train-imgs.jpg"
+        imagePath: "images/niklas/train-imgs.jpg"
     images:
       - name: "collage.jpg"
-        imagePath: "images/max/collage.jpg"
-      - name: "max-collage-dwarf-elf.png"
-        imagePath: "images/max/max-collage-dwarf-elf.png"
-      - name: "max-jagger.jpg"
-        imagePath: "images/max/max-jagger.jpg"
-      - name: "max-roarrr-dracarys.jpeg"
-        imagePath: "images/max/max-roarrr-dracarys.jpeg"
-      - name: "max-statues-collage.png"
-        imagePath: "images/max/max-statues-collage.png"
-      - name: "motiongif-max.gif"
-        imagePath: "images/max/motiongif-max.gif"
-      - name: "photorealism-max.png"
-        imagePath: "images/max/photorealism-max.png"
-  - name: misc
+        imagePath: "images/niklas/collage.jpg"
+      - name: "motiongif-niklas.gif"
+        imagePath: "images/niklas/motiongif-niklas.gif"
+      - name: "niklas-collage1.jpg"
+        imagePath: "images/niklas/niklas-collage1.jpg"
+      - name: "niklas-superman.png"
+        imagePath: "images/niklas/niklas-superman.png"
+  - name: Misc
     images:
       - name: "boh.jpg"
         imagePath: "images/misc/boh.jpg"
@@ -125,16 +138,3 @@ albums:
         imagePath: "images/misc/totally-real-factory.png"
       - name: "updated-all.jpg"
         imagePath: "images/misc/updated-all.jpg"
-  - name: niklas
-    references:
-      - name: "train-imgs.jpg"
-        imagePath: "images/niklas/train-imgs.jpg"
-    images:
-      - name: "collage.jpg"
-        imagePath: "images/niklas/collage.jpg"
-      - name: "motiongif-niklas.gif"
-        imagePath: "images/niklas/motiongif-niklas.gif"
-      - name: "niklas-collage1.jpg"
-        imagePath: "images/niklas/niklas-collage1.jpg"
-      - name: "niklas-superman.png"
-        imagePath: "images/niklas/niklas-superman.png"
