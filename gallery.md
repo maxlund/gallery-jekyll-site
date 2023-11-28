@@ -10,7 +10,7 @@ title: Image Gallery
         {% if forloop.first  %}
             <button class="nav-link active" id="nav-{{album.name}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{album.name}}" type="button" role="tab" aria-controls="nav-{{album.name}}" aria-selected="true">{{album.name}}</button>
         {% else %}
-            <button class="nav-link" id="nav-{{album.name}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{album.name}}" type="button" role="tab" aria-controls="nav-{{album.name}}" aria-selected="false">{{album.name}}</utton>
+            <button class="nav-link" id="nav-{{album.name}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{album.name}}" type="button" role="tab" aria-controls="nav-{{album.name}}" aria-selected="false">{{album.name}}</button>
         {% endif %}
       {% endfor %}
   </div>
