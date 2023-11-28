@@ -29,9 +29,9 @@ title: Image Gallery
                             <div class="row">
                                 {% for image in album.references %}
                                 <div class="col-md-4">
-                                <a href="_site/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                <a href="https://media.githubusercontent.com/media/maxlund/gallery-jekyll-site/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
                                     <div class="card">
-                                    <img  src="_site/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
+                                    <img  src="https://media.githubusercontent.com/media/maxlund/gallery-jekyll-site/main/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
                                       <div class="card-body">
                                         <p class="card-text">{{ image.name }} </p>
                                     </div>
@@ -45,9 +45,9 @@ title: Image Gallery
                             <div class="row">
                             {% for image in album.images %}
                                 <div class="col-md-4">
-                                <a href="_site/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                <a href="https://media.githubusercontent.com/media/maxlund/gallery-jekyll-site/main/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
                                       <div class="card">
-                                    <img  src="_site/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
+                                    <img  src="https://media.githubusercontent.com/media/maxlund/gallery-jekyll-site/main/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
                                                        <div class="card-body">
                                         <p class="card-text">{{ image.name }} </p>
                                     </div>
