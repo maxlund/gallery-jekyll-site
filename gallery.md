@@ -10,7 +10,7 @@ title: Image Gallery
         {% if forloop.first  %}
             <button class="nav-link active" id="nav-{{album.name}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{album.name}}" type="button" role="tab" aria-controls="nav-{{album.name}}" aria-selected="true">{{album.name}}</button>
         {% else %}
-            <button class="nav-link" id="nav-{{album.name}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{album.name}}" type="button" role="tab" aria-controls="nav-{{album.name}}" aria-selected="false">{{album.name}}</button>
+            <button class="nav-link" id="nav-{{album.name}}-tab" data-bs-toggle="tab" data-bs-target="#nav-{{album.name}}" type="button" role="tab" aria-controls="nav-{{album.name}}" aria-selected="false">{{album.name}}</utton>
         {% endif %}
       {% endfor %}
   </div>
@@ -29,9 +29,9 @@ title: Image Gallery
                             <div class="row">
                                 {% for image in album.references %}
                                 <div class="col-md-4">
-                                <a href="{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                <a href="_site/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
                                     <div class="card">
-                                    <img  src="{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
+                                    <img  src="_site/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
                                       <div class="card-body">
                                         <p class="card-text">{{ image.name }} </p>
                                     </div>
@@ -45,9 +45,9 @@ title: Image Gallery
                             <div class="row">
                             {% for image in album.images %}
                                 <div class="col-md-4">
-                                <a href="{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
+                                <a href="_site/{{ image.imagePath }}" data-type="image" data-gallery="{{album.name}}-gallery"  class="my-lightbox-toggle container-md">
                                       <div class="card">
-                                    <img  src="{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
+                                    <img  src="_site/{{ image.imagePath }}" class="img-fluid img-thumbnail card-img-top"/>
                                                        <div class="card-body">
                                         <p class="card-text">{{ image.name }} </p>
                                     </div>
