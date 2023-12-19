@@ -1,5 +1,5 @@
 albums:
-- name: Max
+  - name: Max
     references:
       - name: "train-imgs.jpg"
         imagePath: "images/max/train-imgs.jpg"
