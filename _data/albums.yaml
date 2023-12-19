@@ -1,4 +1,23 @@
 albums:
+- name: Max
+    references:
+      - name: "train-imgs.jpg"
+        imagePath: "images/max/train-imgs.jpg"
+    images:
+      - name: "collage.jpg"
+        imagePath: "images/max/collage.jpg"
+      - name: "max-collage-dwarf-elf.png"
+        imagePath: "images/max/max-collage-dwarf-elf.png"
+      - name: "max-jagger.jpg"
+        imagePath: "images/max/max-jagger.jpg"
+      - name: "max-roarrr-dracarys.jpeg"
+        imagePath: "images/max/max-roarrr-dracarys.jpeg"
+      - name: "max-statues-collage.png"
+        imagePath: "images/max/max-statues-collage.png"
+      - name: "motiongif-max.gif"
+        imagePath: "images/max/motiongif-max.gif"
+      - name: "photorealism-max.png"
+        imagePath: "images/max/photorealism-max.png" 
   - name: Family
     references:
       - name: "real-img1.jpg"
@@ -34,26 +53,7 @@ albums:
       - name: "tiene-shorthair.jpg"
         imagePath: "images/tiene/tiene-shorthair.jpg"
       - name: "tiene-statue-collage.png"
-        imagePath: "images/tiene/tiene-statue-collage.png"
-  - name: Max
-    references:
-      - name: "train-imgs.jpg"
-        imagePath: "images/max/train-imgs.jpg"
-    images:
-      - name: "collage.jpg"
-        imagePath: "images/max/collage.jpg"
-      - name: "max-collage-dwarf-elf.png"
-        imagePath: "images/max/max-collage-dwarf-elf.png"
-      - name: "max-jagger.jpg"
-        imagePath: "images/max/max-jagger.jpg"
-      - name: "max-roarrr-dracarys.jpeg"
-        imagePath: "images/max/max-roarrr-dracarys.jpeg"
-      - name: "max-statues-collage.png"
-        imagePath: "images/max/max-statues-collage.png"
-      - name: "motiongif-max.gif"
-        imagePath: "images/max/motiongif-max.gif"
-      - name: "photorealism-max.png"
-        imagePath: "images/max/photorealism-max.png"
+        imagePath: "images/tiene/tiene-statue-collage.png" 
   - name: Lucas
     references:
       - name: "train-imgs.jpg"
